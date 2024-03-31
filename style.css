@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #part1{
+    width: 45%;
+    /* border: 2px solid red; */
+display: flex;
+justify-content: space-between;
+
+}
+nav #part2{
+    width: 40%;
+    /* border: 2px solid red; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav #part2 h4{
+   font-size: 17px;
+   font-weight: 600;
+text-transform: capitalize;
+}
+
+#content{
+    padding: 50px 30px;
+}
+#content h4{
+    font-size: 26px;
+ }
+ 
+#content h1{
+   padding-top: 30px;
+   font-size: 100px;
+   font-weight: 500;
+letter-spacing: -3px;
+line-height: 100px;
+}
+
+
+#case{
+    width: 100%;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 30px;
+   
+}
+#case h4{
+font-size: 18px;
+font-weight: 600;
+
+   
+}
+#line{
+    width: 55%;
+    height: 2px;
+    background-color: black;
+
+}
+#caseright{
+ 
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects{
+    width: 100%;
+    height: 100%;
+  display: flex;
+    /* border: 2px solid red; */
+    gap: 30px;
+    padding: 20px 30px;
+    justify-content: space-between;
+   margin-top: 20px;
+
+}
+.elem{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#img1{
+    width: 100%;
+    height: 700px;
+    background-image: url(sketch-logo.png);
+    /* background-size: cover; */
+    background-size: 80%;
+    background-position: center;
+    /* background-position:10vw;
+    background-position-x: 10vw; */
+    /* transform: rotate(45deg); */
+background-repeat: no-repeat;
+    background-color: #E2E7ED;
+  
+}
+#img2{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440-rw);
+    background-size: cover;
+    background-position: center;
+    background-color: #E2E7ED;
+}
+
+#bottom{
+    /* border: 2px solid black; */
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    
+}
+
+#bottom i{
+padding: 10px 25px;
+border: 2px solid black;
+border-radius: 50px;
+}
+#bottom i:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+#btm-left h3{
+    font-size: 23px;
+    font-weight: 600;
+} 
+#btm-right h3{
+    font-size: 23px;
+    font-weight: 600;
+} 
+#btm-left h4{
+   line-height: 30px;
+   color: #636363;
+} 
+#btm-right h4{
+   line-height: 30px;
+   color: #636363;
+} 
